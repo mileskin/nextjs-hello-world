@@ -1,3 +1,3 @@
-export async function GET() {
-  return { foo: 1 }
+export default function handler(req, res) {
+  res.status(200).json({ name: 'John Doe' })
 }
